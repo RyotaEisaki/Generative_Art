@@ -1,5 +1,5 @@
-int numA = 14;
-int numB = 9;
+int numA = 10;
+int numB = 7;
 int scalar = 50;
 numA *= scalar;
 numB *= scalar;
