@@ -1,1 +1,1 @@
-## Art of Euculid
+## Art of Euclid
