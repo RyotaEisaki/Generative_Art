@@ -1,5 +1,8 @@
-int numA = 10;
-int numB = 6;
+color col;
+colorMode(HSB,1);
+
+int numA = 9;
+int numB = 38;
 int scalar = 50;
 
 numA *= scalar;
@@ -14,6 +17,8 @@ while(wd>0){
   itr++;
   if(itr%2==1){
     while (xPos+wd <= numA){
+      col=color(random(1),1,1);
+      fill(col);
       rect(xPos, yPos, wd,wd);
       xPos +=wd;
     }
@@ -21,6 +26,8 @@ while(wd>0){
   }
   else{
     while(yPos+wd<=numB){
+      col=color(random(1),1,1);
+      fill(col);
       rect(xPos, yPos,wd,wd);
       yPos+=wd;
     }
