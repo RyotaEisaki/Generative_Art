@@ -10,6 +10,7 @@ colorMode(HSB, 1);
 float wd= width;
 
 while(wd>0.1) {
+  
   itr++;
   if(itr%2==1){
     while(xPos+wd*ratio<width+0.1){
